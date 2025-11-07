@@ -1,0 +1,22 @@
+If line is between two '''s, then this line needs to be copied exactly into the attribution section.
+
+--------------------
+Definite attribution
+--------------------
+
+<none so far>
+
+
+--------------------
+Possible attribution
+--------------------
+
+Coffee pour SFX
+(https://www.zapsplat.com/music/pouring-coffee-from-percolator-into-cup-x-3/)
+''' "pouring coffee from percolator into cup x 3" sound effect from Zapsplat '''
+
+Swoosh SFX
+(https://www.zapsplat.com/music/a-small-stick-that-is-thinner-at-the-end-swoosh-whoosh-through-the-air-flick-fast/)
+''' "A small stick that is thinner at the end swoosh, whoosh through the air, flick fast" sound effect from Zapsplat '''
+
+Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/photos/top-view-photography-of-heart-latte-coffee-XOhI_kW_TaM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
