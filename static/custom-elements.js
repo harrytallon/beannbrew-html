@@ -50,7 +50,7 @@ class TopNavMenu extends HTMLElement {
         <circle cx="300" cy="0" r="300" fill=var(--primary-colour) stroke="#f0efeb" stroke-width="4px"/>
       </svg>
         <a class="profileIcon" href="https://youtu.be/xvFZjo5PgG0?si=d6PDdRvOjNV9n4iF">
-          <img class="profileIconImg" src="assets/profile.svg" alt="Profile Icon" style="">
+          <img class="profileIconImg" src="{{url_for('static', filename='assets/profile.svg')}}" alt="Profile Icon" style="">
         </a>
       </nav>
     `;
