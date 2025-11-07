@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--This is the right version-->
+<!DOCTYPE html><!--V1-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,13 +25,13 @@
                 <img src="../static/assets/open.svg">
             </div>
             <div id="full-width-hero-img">
-                <img class="hero-image" src="../static/assets/coffee-photo-cropped.jpg">
+                <img class="hero-image" src="{{url_for('static', filename='assets/coffee-photo-cropped.jpg')}}" alt="Coffee hero image">
             </div>
             <div id="featuredDrinksList">
                 <h3>Featured drinks:</h3>
                 <div id="featuredItems">
                     <div class="item">
-                        <img src="../static/assets/food-menu-coffee.svg" alt="Item 1">
+                        <img src="{{url_for('static', filename='assets/food-menu-coffee')}}" alt="Item 1">
                     </div>
                     <div class="item">
                         <img src="../static/assets/food-menu-coffee.svg" alt="Item 2">
