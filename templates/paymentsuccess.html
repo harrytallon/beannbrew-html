@@ -1,0 +1,21 @@
+<!DOCTYPE html><!--V1-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beanbrew app</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script type="module" src="{{ url_for('static', filename='custom-elements.js') }}" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><!--jQuery-->
+</head>
+
+<body>
+    <top-nav-menu class="navbars"></top-nav-menu>
+    <bottom-nav-menu></bottom-nav-menu>
+    <script src="{{ url_for('static', filename='index.js') }}" defer></script>
+    <div id="greeting-home">
+        <p>Good morning, User!</p>
+    </div>
+</body>
