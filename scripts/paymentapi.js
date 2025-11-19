@@ -8,6 +8,12 @@ const app = express();
 app.use(express.json());
  
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+
+
+// status for the /api/ page to confirm whether its working (it should be...)
+app.get("/api/", async (req, res) => {
+  return res.status(200).json({ status: "200: Okay", message: "Bean 'n' Brew Payment API"})
+});
  
 // POST /api/payments/create
 app.post("/api/payments/create", async (req, res) => {
@@ -18,19 +24,17 @@ app.post("/api/payments/create", async (req, res) => {
       return res.status(400).json({ error: "Products array is required" });
     }
  
-    // Convert your product references into Stripe line items
     const line_items = products.map(product => ({
       price_data: {
         currency: "gbp",
         product_data: {
           name: product.name,
         },
-        unit_amount: Math.round(product.price * 100), // convert to cents
+        unit_amount: Math.round(product.price * 100),
       },
       quantity: product.quantity,
     }));
  
-    // Create Stripe checkout session
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
       line_items,
@@ -39,7 +43,6 @@ app.post("/api/payments/create", async (req, res) => {
       cancel_url: "http://yourfrontend.com/cancel",
     });
  
-    // Return session URL to the frontend
     res.json({ url: session.url });
   } catch (error) {
     console.error(error);
@@ -70,6 +73,5 @@ app.get("/api/payments/success", async (req, res) => {
   }
 });
  
-// Start server
 const PORT = process.env.PORT || 4242;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
