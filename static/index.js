@@ -9,7 +9,7 @@ $(document).ready(function() {
         // Example: show it on the page
         let output = "";
         data.forEach(customer => {
-            output += `<li>${customer.id}: ${customer.name}</li>`;
+            output += `<li>${customerID}: ${customer.name}</li>`;
         });
 
         $("#db-output").html(output);
