@@ -1,3 +1,5 @@
+console.log("index.js loaded!");
+
 $(document).ready(function() {
 
     // Make a GET request to your Flask API
