@@ -110,7 +110,7 @@ body {
     border-radius: 50px;
     border-width: 5px;
     border-color: #a8763e;
-    margin-bottom: 30px;;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 450px) {
@@ -166,4 +166,13 @@ body {
 #locationMap {
     align-items: center;
     justify-content: center;
+}
+
+#locationMap img {
+    width: 400px;
+    border-style:solid;
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: #a8763e;
+    margin-bottom: 30px;
 }
