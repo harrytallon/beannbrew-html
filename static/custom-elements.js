@@ -125,8 +125,8 @@ class bottomNavMenu extends HTMLElement{
 
         <nav class="btmNav">
             <div class="spaceMeEvenly">
-                <a href="templates/index.html"><button><img src="/static/assets/home.svg" alt="home button"></img></button></a>
-                <a href="templates/food-menu.html"><button><img src="/static/assets/food-menu.svg" alt="food menu button"></img></button></a>
+                <a href="/"><button><img src="/static/assets/home.svg" alt="home button"></img></button></a>
+                <a href="/menu"><button><img src="/static/assets/food-menu.svg" alt="food menu button"></img></button></a>
                 <button><img src="/static/assets/notification.svg" alt="notification or past orders button"></img></button>
                 <button><img src="static/assets/profile.svg" alt="..."></img></button>
             </div>
