@@ -162,3 +162,8 @@ body {
     border-radius: 50%;
     z-index: 50;
 }
+
+#locationMap {
+    align-items: center;
+    justify-content: center;
+}
