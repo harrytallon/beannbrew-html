@@ -179,6 +179,10 @@ body {
     margin-bottom: 30px;
 }
 
+#topWhitespace {
+    height: 80px;
+}
+
 #topFoodMenuBar {
     position: fixed;
     top: 0;
