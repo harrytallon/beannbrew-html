@@ -191,4 +191,17 @@ body {
     z-index: 900;
     background-color: #E2C290;
     height:150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+#checkoutButton {
+    background-color: #151515;
+    color: aqua;
+}
+
+#drinkSelectorBar {
+    background-color: aqua;
 }

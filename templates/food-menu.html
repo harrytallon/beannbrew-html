@@ -17,8 +17,13 @@
     <p id="topWhitespace"></p>
     <script src="{{ url_for('static', filename='index.js') }}?v={{ config['SECRET_KEY'] }}" defer></script>
     <div id="topFoodMenuBar">
-        <p>lol</p>
+        <div id="topFoodMenuBarDynamic">
+            <p id="basketItemNumber">Items: ##</p>
+            <p id="basketTotalCost">Total: £##.##</p>
+        </div>
+        <button id="checkoutButton">Checkout</button>
     </div>
+    <div id="drinkSelectorBar"></div>
     <div id="full-width-mainbody">
         <div id="mainbody">
             <p>This is the main body of the app, which is asfhlkadjsf</p>
