@@ -201,12 +201,14 @@ body {
     display: flex;
     align-items: centre;
     height: 75px;
+    margin: 0px;
 }
 
 #basketTotalCost {
     display: flex;
     align-items: center;
     height: 75px;
+    margin: 0px;
 }
 
 #checkoutButton {
