@@ -193,8 +193,8 @@ body {
     border-bottom: 5px solid #a8763e;
     height:150px;
     display: flex;
-    justify-content: space-evenly;
-    margin-right: 130px;
+    justify-content: space-between;
+    padding-right: 130px;
 }
 
 #basketItemNumber {
