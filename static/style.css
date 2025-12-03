@@ -189,10 +189,11 @@ body {
     left: 0;
     width: 100%;
     z-index: 900;
-    background-color: #E2C290;
+    background-color: #a7d7aa;
     height:150px;
     display: flex;
     justify-content: space-evenly;
+    padding-right: 130px;
 }
 
 
@@ -200,6 +201,8 @@ body {
 #checkoutButton {
     background-color: #151515;
     color: aqua;
+    height: 2rem;
+    width: 10rem;
 }
 
 #drinkSelectorBar {
