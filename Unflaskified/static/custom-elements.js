@@ -50,7 +50,7 @@ class TopNavMenu extends HTMLElement {
         <circle cx="300" cy="0" r="300" fill=var(--primary-colour) stroke="#f0efeb" stroke-width="4px"/>
       </svg>
         <a class="profileIcon" href="https://youtu.be/xvFZjo5PgG0?si=d6PDdRvOjNV9n4iF">
-          <img class="profileIconImg" src="/static/assets/profile.svg" alt="Profile Icon" style="">
+          <img class="profileIconImg" src="assets/profile.svg" alt="Profile Icon" style="">
         </a>
       </nav>
     `;
@@ -125,10 +125,10 @@ class bottomNavMenu extends HTMLElement{
 
         <nav class="btmNav">
             <div class="spaceMeEvenly">
-                <a href="/"><button><img src="/static/assets/home.svg" alt="home button"></img></button></a>
-                <a href="/menu"><button><img src="/static/assets/food-menu.svg" alt="food menu button"></img></button></a>
-                <button><img src="/static/assets/notification.svg" alt="notification or past orders button"></img></button>
-                <button><img src="static/assets/profile.svg" alt="..."></img></button>
+                <a href="/"><button><img src="assets/home.svg" alt="home button"></img></button></a>
+                <a href="/menu"><button><img src="assets/food-menu.svg" alt="food menu button"></img></button></a>
+                <button><img src="assets/notification.svg" alt="notification or past orders button"></img></button>
+                <button><img src="assets/profile.svg" alt="..."></img></button>
             </div>
         </nav>
         `;
