@@ -190,12 +190,7 @@ body {
     width: 100%;
     z-index: 900;
     background-color: #e2d5bf;
-    border-style: solid;
-    border-color: #a8763e;
-    border-bottom: 10px;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
+    border-bottom: 10px solid #a8763e;
     height:150px;
     display: flex;
     justify-content: space-evenly;
