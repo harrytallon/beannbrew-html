@@ -190,14 +190,24 @@ body {
     width: 100%;
     z-index: 900;
     background-color: #e2d5bf;
-    border-bottom: 10px solid #a8763e;
+    border-bottom: 5px solid #a8763e;
     height:150px;
     display: flex;
     justify-content: space-evenly;
     padding-right: 130px;
 }
 
+#basketItemNumber {
+    display: flex;
+    align-items: centre;
+    height: 75px;
+}
 
+#basketTotalCost {
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
 
 #checkoutButton {
     background-color: #151515;
