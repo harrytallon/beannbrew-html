@@ -189,7 +189,13 @@ body {
     left: 0;
     width: 100%;
     z-index: 900;
-    background-color: #a7d7aa;
+    background-color: #e2d5bf;
+    border-style: solid;
+    border-color: #a8763e;
+    border-bottom: 10px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
     height:150px;
     display: flex;
     justify-content: space-evenly;
