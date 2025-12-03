@@ -193,7 +193,8 @@ body {
     border-bottom: 5px solid #a8763e;
     height:150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    gap: 10%;
     padding-right: 130px;
 }
 
