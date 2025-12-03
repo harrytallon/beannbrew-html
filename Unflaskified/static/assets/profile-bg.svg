@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58332 264.58334"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="profile-bg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="527"
+     inkscape:cy="713"
+     inkscape:window-width="2240"
+     inkscape:window-height="1366"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="26.458333"
+       spacingy="26.458333"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="profile-bg"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#a8a8a8;fill-opacity:1;stroke:none;stroke-width:21.1666;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path4"
+       sodipodi:type="arc"
+       sodipodi:cx="-1.4805437e-09"
+       sodipodi:cy="-264.58334"
+       sodipodi:rx="264.58334"
+       sodipodi:ry="264.58334"
+       sodipodi:start="0"
+       sodipodi:end="1.5707796"
+       sodipodi:arc-type="slice"
+       d="M 264.58334,-264.58334 A 264.58334,264.58334 0 0 1 0.00442563,-3.7013308e-8 L 0,-264.58334 Z"
+       transform="rotate(90)" />
+  </g>
+</svg>

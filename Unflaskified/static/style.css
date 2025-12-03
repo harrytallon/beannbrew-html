@@ -1,0 +1,193 @@
+/*setting global variables (default colours for personalisation)*/
+:root {
+  --primary-colour: #5f5d70;
+}
+
+.navbars {
+    position: relative;
+    z-index: 1000;
+}
+
+#greeting-home {
+    color: #151515;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 2rem;
+    width: calc(100vw - 180px);
+    height: 100px;
+    margin-top: 0px;
+}
+
+#greeting-home {
+    padding-left: 20px;
+    word-wrap: normal;
+    word-break: normal;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+@media (max-width: 450px) {
+    #greeting-home {
+        font-size: 1.5rem;
+        width: calc(100vw - 200px);
+        height: 80px;
+    }
+}
+
+@media (max-width: 400px) {
+    #greeting-home {
+        width: calc(100vw - 160px);
+        height: 100px;
+    }
+}
+
+@media (max-width: 360px) {
+    #greeting-home {
+        font-size: 1.2rem;
+        width: calc(100vw - 160px);
+    }
+}
+
+#full-width-mainbody {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#mainbody {
+    max-width: 600px;
+}
+
+#open-closed-text {
+    flex-direction: row;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#open-closed-text img {
+    width: 4rem;
+}
+
+@media (max-width: 600px) {
+    #open-closed-text {
+        padding-right:60px
+    }
+}
+
+@media (max-width: 350px) {
+    #open-closed-text {
+        padding-right:0px;
+        gap: 5px;
+    }
+}
+
+body {
+    background-color: #f0efeb;
+    padding-bottom: 80px;
+    margin: 0px;
+    font-family: "Ubuntu", monospace, sans-serif;
+    line-height: 1;
+} 
+
+@media (min-width: 500px) {
+    
+    body {
+        font-size: 1.2rem;
+        padding-bottom: 100px;
+    }
+}
+
+#full-width-hero-img {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image {
+    width: 400px;
+    border-style:solid;
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: #a8763e;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 450px) {
+    .hero-image {
+        width: 300px;
+    }
+}
+
+@media (max-width: 350px) {
+    .hero-image {
+        width: 200px;
+    }
+}
+
+#featuredDrinksList {
+    background-color: #ece7df;
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+#featuredItems {
+    display: flex;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#featuredItems img {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+}
+
+.item::after {
+    content: "";
+    position:relative;
+    display: block;
+    top: -70px;
+    left: -15px;
+    width: 80px;
+    height: 80px;
+    background: #E2C290;
+    border-radius: 50%;
+    z-index: 50;
+}
+
+#locationMap {
+    display: flex;
+    justify-content: center;
+}
+
+#locationMap img {
+    width: 500px;
+    border-style:solid;
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: #a8763e;
+    margin-bottom: 30px;
+}
+
+#topWhitespace {
+    height: 120px;
+}
+
+#topFoodMenuBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 900;
+    background-color: #151515;
+}
