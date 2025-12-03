@@ -187,7 +187,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: (100vw-130px);
+    width: 100vw;
     z-index: 900;
     background-color: #e2d5bf;
     border-bottom: 5px solid #a8763e;
