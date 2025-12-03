@@ -194,8 +194,8 @@ body {
     height:150px;
     display: flex;
     justify-content: left;
-    gap: 10%;
-    padding-left: 10%;
+    gap: 5%;
+    padding-left: 5%;
 }
 
 #basketItemNumber {
@@ -208,7 +208,7 @@ body {
 #basketTotalCost {
     display: flex;
     align-items: center;
-    height: 75px;
+    height: 50px;
     margin: 0px;
 }
 
